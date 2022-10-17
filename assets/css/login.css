@@ -1,0 +1,115 @@
+@media (min-width: 540px) {
+    .container {
+      margin-top: 80px;
+    }
+    .col-xl-5 {
+      border: 1px solid grey;
+      border-radius: 10px;
+      box-shadow: 0px 10px 5px 5px #d3d3d3;
+    }
+    #clickModal{
+      cursor: pointer;
+      color: rgb(0, 102, 255);
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      height: 40px;
+      width: 380px;
+      padding-left: 20px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      outline: none;
+      border: thin solid rgb(165, 161, 161);
+    }
+    .btn_login {
+      border-radius: 5px;
+      background-color: #63b8ff;
+      height: 40px;
+      width: 380px;
+      padding: 5px 0;
+      margin: 0 auto;
+      cursor: pointer;
+      outline: none;
+    }
+    .form_main {
+      margin-top: 50px;
+    }
+    .btn_by {
+      background-color: #f5f5f5;
+      color: #1c1c1c;
+      border: thin solid #7ec0ee;
+    }
+    .btn_by:hover {
+      background-color: #b0e2ff;
+      color: #1c1c1c;
+    }
+    .login_btn_by {
+      justify-content: space-evenly;
+      margin: 20px 0 40px;
+    }
+    .fa-google {
+      color: indianred;
+    }
+    .fa-facebook {
+      color: #63b8ff;
+    }
+    .fa-comment {
+      color: #8470ff;
+    }
+  }
+  @media (max-width: 540px) {
+    #clickModal{
+      cursor: pointer;
+      color: rgb(0, 102, 255);
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      height: 40px;
+      width: 280px;
+      padding-left: 20px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      outline: none;
+      border: thin solid rgb(165, 161, 161);
+    }
+    .btn_login {
+      border-radius: 5px;
+      background-color: #63b8ff;
+      height: 40px;
+      width: 280px;
+      padding: 5px 0;
+      margin: 0 auto;
+      cursor: pointer;
+      outline: none;
+    }
+    .form_main {
+      margin-top: 50px;
+    }
+    .btn_by {
+      background-color: #f5f5f5;
+      color: #1c1c1c;
+      border: thin solid #7ec0ee;
+      margin-bottom: 10px;
+    }
+    .btn_by:hover {
+      background-color: #b0e2ff;
+      color: #1c1c1c;
+    }
+    .login_btn_by {
+      justify-content: center;
+      flex-direction: column;
+      margin: 20px 0 40px;
+    }
+    .fa-google {
+      color: indianred;
+    }
+    .fa-facebook {
+      color: #63b8ff;
+    }
+    .fa-comment {
+      color: #8470ff;
+    }
+  }
+  
